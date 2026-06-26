@@ -74,6 +74,34 @@ multi-tenant-feature-flag-management-system/
 
 ---
 
+## Repository
+
+GitHub Repository:
+
+https://github.com/godwinm8/multi-tenant-feature-flag-management-system.git
+
+---
+
+## Live Applications
+
+### Backend API
+
+https://multi-tenant-feature-flag-management-ibmc.onrender.com
+
+### Super Admin Frontend
+
+https://multi-tenant-feature-flag-managemen-pi.vercel.app/
+
+### Admin Frontend
+
+https://multi-tenant-feature-flag-managemen-three.vercel.app/
+
+### User Frontend
+
+https://multi-tenant-feature-flag-managemen-nine.vercel.app/
+
+---
+
 ## Technology Stack
 
 ### Backend
