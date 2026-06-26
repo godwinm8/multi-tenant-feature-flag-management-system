@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f6fb;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.checker-card {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.checker-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #1e40af;
+  margin-bottom: 10px;
+}
+
+.checker-subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.2);
+}
+
+.check-btn {
+  width: 100%;
+  padding: 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.check-btn:hover {
+  background: #1d4ed8;
+}
+
+.check-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.result-card {
+  margin-top: 25px;
+  padding: 18px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.result-enabled {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+
+.result-disabled {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #6b7280;
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  .checker-card {
+    padding: 30px;
+  }
+
+  .checker-title {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .checker-card {
+    padding: 25px 20px;
+  }
+
+  .checker-title {
+    font-size: 1.5rem;
+  }
+
+  .checker-subtitle {
+    font-size: 14px;
+  }
+
+  .input-field,
+  .check-btn {
+    font-size: 15px;
+  }
+
+  .result-card {
+    font-size: 16px;
+  }
+}
